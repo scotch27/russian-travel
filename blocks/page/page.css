@@ -1,9 +1,9 @@
 .page {
-    min-width: 1280px;
+    max-width: 1280px;
     width: 100%;
     margin: 0 auto;
     font-family: 'Inter', Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-color: rgba(42, 44, 47, 1);
+    background-color: #2A2C2F;
   }

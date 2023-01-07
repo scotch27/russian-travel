@@ -1,0 +1,14 @@
+.travel__title {
+    display: flex;
+    align-self: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 100px;
+    text-align: center;
+    color: #FFFFFF;
+    max-width: 720px;
+    max-height: 200px;
+    margin: 0 auto 32px;
+}
