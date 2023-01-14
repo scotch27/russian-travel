@@ -9,15 +9,38 @@
     text-align: center;
     color: #FFFFFF;
     max-width: 640px;
-    margin: 0 auto 64px;
+    margin: 0 64px 64px;
     box-sizing: border-box;
 }
 
-/* @media screen and (max-width: 320px) {
+@media screen and (max-width: 1024px) {
+    .travel__subtitle {
+        max-width: 720px;
+        margin: 0px 192px 56px;
+    }
+}
+
+@media screen and (max-width: calc((1024px + 768px) / 2)) {
+    .travel__subtitle {
+        max-width: 640px;
+        margin: 0px 64px 56px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .travel__subtitle {
+        max-width: 504px;
+        margin: 0px 40px 48px;
+        font-size: 23px;
+        line-height: 28px;
+    }
+}
+
+@media screen and (max-width: calc((768px + 320px) / 2)) {
     .travel__subtitle {
         max-width: 288px;
         margin: 0px 16px 40px;
         font-size: 16px;
         line-height: 20px;
     }
-} */
+}
