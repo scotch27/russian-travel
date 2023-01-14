@@ -7,3 +7,39 @@
     margin: 0px auto 92px;
 }
 
+@media (max-width: 1280px) {
+    .cover__title {
+        color: yellow;
+    }
+}
+
+@media (max-width: 1024px) {
+    .cover__title {
+        color: blue;
+        font-size: 72px;
+        line-height: 76px;
+    }
+}
+
+@media (max-width: 768px) {
+    .cover__title {
+        color: green;
+        max-width: 560px;
+        max-height: 152px;
+        font-size: 72px;
+        line-height: 76px;
+    }
+}
+
+@media (max-width: 320px) {
+    .cover__link {
+        height: 200px;
+    }
+    .cover__title {
+        color: red;
+        max-width: 288px;
+        max-height: 70px;
+        font-size: 32px;
+        line-height: 35px;
+    }
+}

@@ -4,4 +4,26 @@
     margin: 0 auto 8px;
     max-width: 984px;
     max-height: 615px;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1024px) {
+    .travel__lead-polka {
+        max-width: 928px;
+        margin: 0 48px 8px 48px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .travel__lead-polka {
+        max-width: 768px;
+        margin: 0 0 8px 0;
+}
+}
+
+@media screen and (max-width: 320px) {
+    .travel__lead-polka {
+        max-width: 320px;
+        margin: 0 0 8px 0;
+    }
 }

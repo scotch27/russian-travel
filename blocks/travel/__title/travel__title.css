@@ -11,4 +11,32 @@
     max-width: 720px;
     max-height: 200px;
     margin: 0 auto 32px;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1024px) {
+    .travel__title {
+        max-width: 720px;
+        margin: 0px auto 32px auto;
+        font-size: 96px;
+        line-height: 100px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .travel__title {
+        max-width: 720px;
+        margin: 0px auto 32px auto;
+        font-size: 96px;
+        line-height: 100px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .travel__title {
+        max-width: 288px;
+        margin: 0px auto 16px;
+        font-size: 40px;
+        line-height: 44px;
+    }
 }
