@@ -8,3 +8,24 @@
     margin-bottom: 40px;
     margin-top: 0px;
 }
+
+@media screen and (max-width: calc((1024px + 768px) / 2)) {
+    .introduction__title {
+        font-size: 54px;
+        line-height: 58px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .introduction__title {
+        font-size: 43px;
+        line-height: 46px;
+    }
+}
+
+@media screen and (max-width: calc((768px + 320px) / 2)) {
+    .introduction__title {
+        font-size: 32px;
+        line-height: 35px;
+    }
+}
