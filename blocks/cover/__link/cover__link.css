@@ -5,29 +5,9 @@
     color: #FFF;
     background-color: rgba(42, 44, 47, 0.3);
     text-decoration: none;
-    /* transition: background-color 0.4s ease-in-out 0.2s; */
-    /* padding: 0;
-    margin: 0; */
+    transition: background-color 0.4s ease-in-out 0.2s;
 }
 
 .cover__link:hover {
     background-color: rgba(42, 44, 47, 0.8);
-}
-
-@media (max-width: 1024px) {
-    .cover__link  {
-        /* height: auto; */
-    }
-}
-
-@media (max-width: 768px) {
-    .cover__link {
-        /* height: 480px; */
-    }
-}
-
-@media (max-width: 320px) {
-    .cover__link {
-        /* height: auto; */
-    }
 }
