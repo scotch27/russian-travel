@@ -7,3 +7,18 @@
     color: #FFFFFF;
     margin: 0;
 }
+
+@media  (max-width: calc((1024px + 768px) / 2)) {
+    .place__title {
+        font-size: 42px;
+        line-height: 46px;
+    }
+}
+
+@media  (max-width: calc((768px + 320px) / 2)) {
+    .place__title {
+        font-size: 32px;
+        line-height: 35px;
+        margin: 0 16px;
+    }
+}

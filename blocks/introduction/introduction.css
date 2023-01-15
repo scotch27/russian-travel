@@ -5,6 +5,12 @@
    margin: 92px auto;
 }
 
+@media  (max-width: calc((1280px + 1024px) / 2)) {
+   .introduction {
+      margin-left: 48px;
+   }
+}
+
 @media screen and (max-width: 1023px) {
    .introduction {
       margin: 88px 24px;

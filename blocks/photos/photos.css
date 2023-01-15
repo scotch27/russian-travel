@@ -27,9 +27,7 @@
     }
 }
 
-
 @media  (max-width: calc((768px + 320px) / 2)) {
-    /* @media screen and (max-width: 320px) { */
     .photos {
         grid-template-columns: repeat(1, 1fr);
         gap: 12px;
