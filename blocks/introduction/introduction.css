@@ -11,7 +11,7 @@
    }
 }
 
-@media screen and (max-width: 1023px) {
+@media  (max-width: calc((1024px + 768px) / 2)) {
    .introduction {
       margin: 88px 24px;
    }
