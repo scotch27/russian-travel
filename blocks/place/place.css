@@ -8,12 +8,12 @@
 
 @media screen and (max-width: 1023px) {
     .place {
-        /* margin: 0 auto auto 48px; */
+        margin: 0 auto auto 48px;
         gap: 48px 28px;
     }
 }
 
-@media  (max-width: calc((768px + 320px) / 2)) {
+@media  screen and (max-width: 767px) {
     .place {
         grid-template-columns: repeat(1, 1fr);
         column-gap: 32px;

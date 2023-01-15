@@ -3,20 +3,6 @@
    max-width: 984px;
    align-self: center;
    margin: 0 auto 8px;
-   width: 100%;
    max-height: 615px;
    box-sizing: border-box;
-}
-
-
-@media (max-width: calc((1280px + 1024px) / 2)) {
-   .travel__figure {
-      margin-left: 48px;
-   }
-}
-
-@media screen and (max-width: 1023px) {
-   .travel__figure {
-      margin-left: auto;
-   }
 }

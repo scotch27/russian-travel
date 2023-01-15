@@ -9,8 +9,8 @@
     margin: 0px 0px 12px 0px;
 }
 
-@media  (max-width: calc((1024px + 768px) / 2)) {
+ @media  (max-width: calc((1024px + 768px) / 2)) {
     .place__url {
         line-height: 12px;
     }
-}
+} 
