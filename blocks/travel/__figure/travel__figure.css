@@ -1,8 +1,6 @@
 .travel__figure {
    display: block;
-   max-width: 984px;
    align-self: center;
-   margin: 0 auto 8px;
-   max-height: 615px;
    box-sizing: border-box;
+   margin: 0;
 }

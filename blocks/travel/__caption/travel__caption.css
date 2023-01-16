@@ -1,5 +1,5 @@
 .travel__caption {
-    margin: 0 0 auto auto;
+    margin: 8px 0 auto auto;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -9,12 +9,6 @@
     text-transform: uppercase;
     color: #FFFFFF;
 }
-
-/* @media screen and (max-width: 1024px) {
-    .travel__caption {
-        margin: 0 auto auto 48px;
-    }
-} */
 
 @media screen and (max-width: 1023px) {
     .travel__caption {

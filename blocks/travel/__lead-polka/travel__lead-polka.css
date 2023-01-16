@@ -1,9 +1,3 @@
 .travel__lead-polka {
     width: 100%;
 }
-
-@media (max-width: calc((1280px + 1024px) / 2)) {
-    .travel__lead-polka {
-        max-width: 928px;
-    }
-}

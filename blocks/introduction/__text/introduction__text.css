@@ -11,13 +11,13 @@
 }
 
 @media screen and (max-width: 768px) {
-    .travel__subtitle {
+    .introduction__text {
         max-width: 720px;
     }
 }
 
 @media screen and (max-width: 320px) {
-    .travel__subtitle {
+    .introduction__text {
         margin-bottom: 34px;
     }
 }

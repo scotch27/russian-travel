@@ -3,19 +3,18 @@
     max-width: 984px;
 }
 
-@media  (max-width: calc((1280px + 1024px) / 2)) {
+@media screen and (max-width: 1152px) {
     .places {
-        margin-left: 48px;
-        margin-right: 48px;
+        max-width: 928px;
     }
-}
+ }
 
-@media  (max-width: calc((1024px + 768px) / 2)) {
+ @media screen and (max-width: 950px) {
     .places {
-        margin: 88px 24px;
-
+       max-width: 100%;
+       margin: 88px 24px;
     }
-}
+ }
 
 @media screen and (max-width: 460px) {
     .places {

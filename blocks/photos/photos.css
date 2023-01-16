@@ -1,29 +1,24 @@
 .photos {
     display:grid;
     grid-template-columns: repeat(4, 1fr);
-    margin: 0 48px;
+    margin: 0 auto;
+    max-width: 1184px;
     gap: 16px;
+    padding: 0 48px;
 }
 
-@media screen and (max-width: 1280px) {
-    .photos {
-        grid-template-columns: repeat(4, 1fr);
-        gap: 16px;
-    }
-}
-
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1090px) {
     .photos {
         grid-template-columns: repeat(3, 1fr);
         gap: 14px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 950px) {
     .photos {
         grid-template-columns: repeat(2, 1fr);
         gap: 16px;
-        margin: 0 24px;
+        padding: 0 24px;
     }
 }
 
@@ -31,6 +26,6 @@
     .photos {
         grid-template-columns: repeat(1, 1fr);
         gap: 12px;
-        margin: 0 16px;
+        padding: 0 16px;
     }
 }
