@@ -21,6 +21,7 @@
 @import url(../blocks/introduction/__list/introduction__list.css);
 @import url(../blocks/introduction/__text/introduction__text.css);
 @import url(../blocks/introduction/__title/introduction__title.css);
+@import url(../blocks/introduction/__statistics/introduction__statistics.css);
 
 @import url(../blocks/photos/photos.css);
 @import url(../blocks/photos/item/photos__item.css);
