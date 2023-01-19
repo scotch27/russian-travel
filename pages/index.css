@@ -24,7 +24,9 @@
 @import url(../blocks/introduction/__statistics/introduction__statistics.css);
 
 @import url(../blocks/photos/photos.css);
-@import url(../blocks/photos/item/photos__item.css);
+@import url(../blocks/photos/__item/photos__item.css);
+@import url(../blocks/photos/__list/photos__list.css);
+@import url(../blocks/photos/__image/photos__image.css);
 
 @import url(../blocks/places/places.css);
 @import url(../blocks/place/place.css);
