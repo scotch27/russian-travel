@@ -15,12 +15,6 @@
     }
 }
 
-@media (max-width: 1000px) {
-    .cover__subtitle {
-        max-width: 360px;
-    }
-}
-
 @media (max-width: 600px) {
     .cover__subtitle {
         max-width: 288px;

@@ -15,19 +15,13 @@
 
 @media screen and (max-width: 1024px) {
     .travel__title {
-        max-width: 720px;
         margin: 0px 152px 32px;
-        /* font-size: 96px;
-        line-height: 100px; */
     }
 }
 
 @media screen and (max-width: 768px) {
     .travel__title {
-        max-width: 720px;
         margin: 0px 24px 32px;
-        /* font-size: 96px;
-        line-height: 100px; */
     }
 }
 
